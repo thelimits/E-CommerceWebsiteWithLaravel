@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(241, 241, 241);
+    min-height: 100vh;
+}
+
+.Section-Bg{
+    width: auto;
+    height: 70vh;
+    background: url("../Asset/wallpaperflare.com_wallpaper.jpg");
+    background-position: 505 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Section-Bg .Section-Wrapper{
+    background-color: rgba(0, 0, 0, 0.411);
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.Section-Bg .Section-Wrapper #Text-Wrapper{
+    width: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.Section-Bg .Section-Wrapper #Text-Wrapper #Text-Welcoming{
+    color: white;
+    font-size: 23px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Section-Bg .Section-Wrapper #Text-Wrapper #Text-Welcoming span{
+    border-bottom: 5px solid rgb(38, 176, 255);
+}
+
+.Section-Bg .Section-Wrapper #Text-Wrapper .buttons{
+    display: flex;
+    margin-top: 25px;
+    height: 50px;
+    width: 250px;
+    background: rgb(113, 203, 255);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.5rem;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+}
+
+.Section-Bg .Section-Wrapper #Text-Wrapper .buttons:hover{
+    background: rgb(38, 175, 255);
+}

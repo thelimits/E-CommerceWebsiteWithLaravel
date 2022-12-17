@@ -1,0 +1,15 @@
+.container{
+    width: 800px;
+    height: 800px;
+    background-color: rgb(248, 196, 205);
+    padding: 25px;
+    /* border: 2px solid black; */
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.container .header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
